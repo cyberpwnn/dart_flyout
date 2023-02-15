@@ -51,7 +51,7 @@ Future<T?> flyout<T>(BuildContext context, FlyoutBuilderSimple flyoutBuilder,
     flyoutCustom(context, (context, scrollController) => flyoutBuilder(),
         initialSize: initialSize,
         invisibleBackground: invisibleBackground,
-        barrierColor: barrierColor);
+        barrierColor: barrierColor ?? Colors.transparent);
 
 Future<T?> flyoutCustom<T>(BuildContext context, FlyoutBuilder flyoutBuilder,
     {double initialSize = 1,
