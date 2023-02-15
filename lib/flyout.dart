@@ -67,6 +67,7 @@ Future<T?> flyoutCustom<T>(BuildContext context, FlyoutBuilder flyoutBuilder,
       enableDrag: true,
       barrierColor: barrierColor,
       context: context,
+      elevation: 0,
       backgroundColor: invisibleBackground
           ? Colors.transparent
           : Theme.of(context).bottomSheetTheme.backgroundColor,

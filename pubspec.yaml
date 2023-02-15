@@ -1,6 +1,6 @@
 name: flyout
 description: Simple flyouts
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/ArcaneArts/flyout
 environment:
   sdk: '>=2.18.4 <3.0.0'
